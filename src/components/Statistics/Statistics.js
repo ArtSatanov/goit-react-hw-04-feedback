@@ -1,9 +1,7 @@
 import { StatList, Text } from './Statistics.styled';
 
 export const Statistics = ({
-  good,
-  neutral,
-  bad,
+  feedbacks: { good, neutral, bad },
   total,
   positivePercentage,
 }) => {
